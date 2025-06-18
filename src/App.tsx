@@ -3,7 +3,8 @@ import spongebob from "../public/card-picture.png";
 
 const name = "Spongebob Squarepants";
 const userHandle = "@likeasponge";
-const text = "The krusty krab pizza is the pizza for you and me";
+const text =
+  "I'm ready! I'm ready! I'm ready! I'm ready! I'm ready to go to work! I'm ready! I'm ready! I'm ready";
 
 function App() {
   return (
