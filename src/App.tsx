@@ -1,16 +1,19 @@
 import Card from "./components/Card";
+import spongebob from "../public/card-picture.png";
+
+const name = "Spongebob Squarepants";
+const userHandle = "@likeasponge";
+const text = "The krusty krab pizza is the pizza for you and me";
 
 function App() {
   return (
     <>
-      <div className="flex justify-center m-8">
-        <Card
-          imageSrc="test"
-          name="bob"
-          userHandle="@bobstuff"
-          description="hello im so cool"
-        />
-      </div>
+      <Card
+        imageSrc={spongebob}
+        name={name}
+        userHandle={userHandle}
+        text={text}
+      />
     </>
   );
 }
