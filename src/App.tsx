@@ -1,5 +1,5 @@
 import Card from "./components/Card";
-import spongebob from "../public/card-picture.png";
+import spongebob from "./card-picture.png";
 
 const name = "Spongebob Squarepants";
 const userHandle = "@likeasponge";
